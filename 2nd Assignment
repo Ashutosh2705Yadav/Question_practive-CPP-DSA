@@ -1,0 +1,44 @@
+Q1
+Solution:
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int n1,n2,n3;
+cin>>n1>>n2>>n3;
+if(n1>n2&n1>n3){
+cout<<n1<<" is the greatest";
+}
+else if(n2>n1 & n2>n3){
+cout<<n2<<" is teh greatest";
+}
+else{
+cout<<n3<<" is the greatest";
+}
+}
+
+
+Q2
+Solution:
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int marks;
+cout<<"Enter your marks"<<endl;
+if(marks<=59){
+cout<<"Congratulation you are Fail";
+}
+else if(marks>=60 & marks<=69){
+cout<<"You got a D";
+}
+else if(marks>=70 & marks<=79){
+cout<<"You got a C";
+}
+else if(marks>=80 & marks<=89){
+cout<<"You got a B";
+}
+else{"You got a A"}
+
+
+}
